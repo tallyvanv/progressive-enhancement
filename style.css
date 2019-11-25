@@ -1,0 +1,34 @@
+body {
+    font-family: "Liberation Serif";
+    color: midnightblue;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase;
+}
+
+a:visited {
+    color: crimson;
+}
+
+p {
+    font-family: "Liberation Serif";
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: midnightblue;
+}
+
+p.smaller {
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+#footnote {
+    font-size: 12px;
+    letter-spacing: normal;
+}
