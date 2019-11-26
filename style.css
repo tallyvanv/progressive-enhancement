@@ -1,8 +1,95 @@
-body {
-    font-family: "Liberation Serif";
-    color: midnightblue;
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #15082B;
+    font-size: 16px;
+    word-spacing: 2px;
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    background-image: url("floral.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+header > h1 {
+    background-color: gold;
+}
+
+img {
+    float: left;
+    clear: left;
+    max-width: 50%;
+    margin: 40px 80px 30px 0;
+}
+
+#preamble {
+    margin-top: -30px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    background-color: navajowhite;
+    display: inline-block;
+    width: 30%;
+}
+
+main > :first-child {
+    font-weight: bold;
+}
+
+.good {
+    color: darkgreen;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.bad {
+    color: darkred;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+blockquote {
+    max-width: 50%;
+    display: block;
+    margin: auto;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+q{
+    max-width: 50%;
+    display: block;
+    font-size: 160%;
+    padding-left: 30px;
+    margin: 80px auto 80px auto;
+    border-left: crimson solid 3px;
+    font-style: italic;
+    background-color: lightgray;
+    font-weight: normal;
+    position: relative;
+}
+
+#floatquote q {
+    margin-right: unset;
+}
+
+.villagers {
+    border-left: yellow solid 3px;
+}
+
+.farmer {
+    border-left: blueviolet solid 3px;
+}
 a {
     font-weight: bold;
     text-decoration: none;
@@ -17,10 +104,8 @@ a:visited {
 }
 
 p {
-    font-family: "Liberation Serif";
-    font-size: 18px;
-    letter-spacing: 2px;
-    color: midnightblue;
+    display: block;
+    margin: auto;
 }
 
 p.smaller {
@@ -28,7 +113,18 @@ p.smaller {
     letter-spacing: normal;
 }
 
+tr:nth-child(even) {
+    background: #CCC
+}
+tr:nth-child(odd) {
+    background: #FFF
+}
+
 #footnote {
     font-size: 12px;
     letter-spacing: normal;
+    background-color: navajowhite;
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
