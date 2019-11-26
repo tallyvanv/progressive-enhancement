@@ -34,16 +34,26 @@ img {
 }
 
 #preamble {
-    margin-top: -30px;
-    margin-bottom: 25px;
+    margin-top: -45px;
+    margin-bottom: 10px;
     font-size: 14px;
     background-color: navajowhite;
     display: inline-block;
     width: 30%;
+    max-width: 40%;
 }
 
 main > :first-child {
+    display: inline-block;
     font-weight: bold;
+    width: 30%;
+    max-width: available;
+}
+
+#floatquote q {
+    width: 40%;
+    display: inline-block;
+    margin: 40px auto 80px auto;
 }
 
 .good {
@@ -72,6 +82,7 @@ q{
     font-size: 160%;
     padding-left: 30px;
     margin: 80px auto 80px auto;
+    text-align: center;
     border-left: crimson solid 3px;
     font-style: italic;
     background-color: lightgray;
@@ -79,9 +90,6 @@ q{
     position: relative;
 }
 
-#floatquote q {
-    margin-right: unset;
-}
 
 .villagers {
     border-left: yellow solid 3px;
