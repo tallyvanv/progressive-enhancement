@@ -29,7 +29,7 @@ header > h1 {
 img {
     float: left;
     clear: left;
-    max-width: 50%;
+    width: 50%;
     margin: 40px 80px 30px 0;
 }
 
