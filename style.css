@@ -28,7 +28,6 @@ header > h1 {
 
 img {
     float: left;
-    clear: left;
     width: 50%;
     margin: 40px 80px 30px 0;
 }
@@ -46,14 +45,9 @@ img {
 main > :first-child {
     display: inline-block;
     font-weight: bold;
-    width: 30%;
-    max-width: available;
-}
-
-#floatquote q {
     width: 40%;
-    display: inline-block;
-    margin: 40px auto 80px auto;
+    max-width: available;
+    margin-bottom: 80px;
 }
 
 .good {
@@ -74,23 +68,19 @@ blockquote {
     margin: auto;
     background-color: lightgray;
     padding: 30px;
+    border-left: crimson solid 3px;
+    margin: 80px auto 80px auto;
 }
 
 q{
-    max-width: 50%;
-    display: block;
-    font-size: 160%;
-    padding-left: 30px;
-    margin: 80px auto 80px auto;
-    text-align: center;
     border-left: crimson solid 3px;
     font-style: italic;
-    background-color: lightgray;
-    font-weight: normal;
-    position: relative;
+    font-weight: inherit;
 }
 
-
+blockquote q {
+  border-left: none;
+}
 .villagers {
     border-left: yellow solid 3px;
 }
